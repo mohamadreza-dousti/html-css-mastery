@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="icon" href="./favicon/D.ico" type="image/x-ico">
+    <style>
+        body {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="get" autocomplete="on" target="_self">
+        <div>
+            <fieldset style="background-color: lightblue;">
+                <legend>Personal information</legend>
+                <h3>Full name:</h3>
+                <div>
+                    <div>
+                        <label for="name">name:</label>
+                    </div>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <div>
+                        <label for="f-name">family name:</label>
+                    </div>
+                    <input type="text" id="f-name" name="fname">
+                </div>
+                <h3>Sex:</h3>
+                <div>
+                    <input type="radio" id="male" name="sex" value="male">
+                    <label for="male">male</label>
+                </div>
+                <div>
+                    <input type="radio" id="female" name="sex" value="female">
+                    <label for="female">female</label>
+                </div>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset style="background-color: lightblue;">
+                <legend>Skills</legend>
+                <h2>language:</h2>
+                <div>
+                    <input type="checkbox" id="skills" name="skill1" value="HTML">
+                    <label for="skills">HTML</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="skills2" name="skill2" value="css">
+                    <label for="skills2">css</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="skills3" name="skill3" value="JS">
+                    <label for="skills3">JS</label>
+                </div>
+                <h2>Your programming language:</h2>
+                <label for="select-box">technologies</label>
+                <div>
+                    <select name="select-box" id="select-box">
+                        <option value="Python">Python</option>
+                        <option value="CPP" selected>CPP</option>
+                        <option value="Java">Java</option>
+                        <option value="Python">Python</option>
+                        <option value="Python">Python</option>
+                        <option value="Python">Python</option>
+                    </select>
+                </div>
+                <h2>Want to learn:</h2>
+                <input type="text" name="wnat-to-learn" list="tech-datas">
+                <datalist id="tech-datas">
+                    <option>Python</option>
+                    <option>Java</option>
+                    <option>CPP</option>
+                    <option>HTML</option>
+                    <option>CSS</option>
+                </datalist>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset style="background-color: lightblue;">
+                <legend>Content</legend>
+                <h2>Information</h2>
+                <div>
+                    <label for="info">information:</label>
+                </div>
+                <div>
+                    <textarea name="information" id="info" cols="30" rows="3"></textarea>
+                </div>
+                <button type="submit">save data with button</button>
+                <button type="reset">reset data with button</button>
+                <input type="submit" value="save data" id="submit-btn">
+                <input type="reset" value="reset data" id="reset-btn">
+            </fieldset>
+        </div>
+    </form>
+</body>
+</html>
