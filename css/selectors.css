@@ -1,0 +1,44 @@
+/* Element */
+div {
+    font-size: 18px;
+}
+
+/* Id */
+#myId {
+    font-size: 18px;
+}
+
+/* Class */
+.myClass {
+    font-size: 18px;
+}
+
+/* AllElements */
+* {
+    font-size: 18px;
+}
+
+/* Grouping */
+h1, h2 {
+    color: blue;
+}
+
+/* Element Element */
+.myClass1 .myClass2 {
+    font-size: 18px;
+}
+
+/* Element > Element */
+div > p {
+    font-size: 18px;
+}
+
+/* Element1 + Element2  */
+div + p {
+    font-size: 18px;
+}
+
+/* Element1 ~ Element2  */
+div ~ p {
+    font-size: 18px;
+}
