@@ -1,0 +1,29 @@
+body {
+    background-color: lightgray;
+    color: blue;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+}
+
+p {
+    background-color: lightblue;
+    color: black;
+}
+
+h3.a {
+    text-align: right;
+    margin-top: 10px;
+}
+
+h3.b {
+    text-align: center;
+    margin-top: 10px;
+}
+
+h3.c {
+    text-align: left;
+    margin-top: 10px;
+}
