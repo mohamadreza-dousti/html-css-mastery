@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.btn {
+    font-size: 24px;
+    width: 100px;
+    margin-top: 50px;
+    margin-right: 50px;
+    border: 1px solid black;
+    outline: 2px solid #0000ff;
+    outline-width: medium;
+    outline-offset: 1px;
+}
