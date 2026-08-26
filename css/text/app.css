@@ -6,6 +6,7 @@ body {
 h1 {
     background-color: black;
     color: white;
+    text-decoration: overline solid blue;
 }
 
 p {
@@ -16,14 +17,17 @@ p {
 h3.a {
     text-align: right;
     margin-top: 10px;
+    text-decoration: line-through double red;
 }
 
 h3.b {
     text-align: center;
     margin-top: 10px;
+    text-decoration: underline dashed green;
 }
 
 h3.c {
     text-align: left;
     margin-top: 10px;
+    text-decoration: overline underline wavy purple;
 }
