@@ -7,11 +7,20 @@ h1 {
     background-color: black;
     color: white;
     text-decoration: overline solid blue;
+    text-transform: uppercase;
 }
 
 p {
     background-color: lightblue;
     color: black;
+}
+
+h2 {
+    text-transform: lowercase;
+}
+
+h3 {
+    text-transform: capitalize;
 }
 
 h3.a {
