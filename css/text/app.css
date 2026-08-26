@@ -8,15 +8,19 @@ h1 {
     color: white;
     text-decoration: overline solid blue;
     text-transform: uppercase;
+    letter-spacing: -2px;
 }
 
 p {
+    text-indent: 30px;
+    white-space: normal;
     background-color: lightblue;
     color: black;
 }
 
 h2 {
     text-transform: lowercase;
+    letter-spacing: 5px;
 }
 
 h3 {
@@ -39,4 +43,14 @@ h3.c {
     text-align: left;
     margin-top: 10px;
     text-decoration: overline underline wavy purple;
+}
+
+p.one {
+    line-height: 1.8;
+    word-spacing: -2px;
+}
+
+p.tow {
+    line-height: 0.8;
+    word-spacing: 10px;
 }
