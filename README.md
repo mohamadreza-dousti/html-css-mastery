@@ -1,2 +1,7 @@
 # html-css-mastery
- A structured journey to master HTML &amp; CSS, covering all core concepts and fundamental building blocks of the web.
+A structured journey to learn and practice HTML and CSS.
+
+# Contents
+### .HTML
+### .CSS
+### .Mini Projects
