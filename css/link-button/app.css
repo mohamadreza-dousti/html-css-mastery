@@ -1,24 +1,53 @@
-a:link {
+a.tow:link {
     color: red;
     text-decoration: none;
     background-color: yellow;
 }
 
-a:visited {
+a.tow:visited {
     color: green;
     text-decoration: none;
     background-color: cyan;
 }
 
-a:hover {
+a.tow:hover {
     color: hotpink;
     text-decoration: underline;
     background-color: lightgreen;
     font-size: 130%;
 }
 
-a:active {
+a.tow:active {
     color: blue;
     text-decoration: underline;
     background-color: hotpink;
+}
+
+a.one:link, a.one:visited {
+    background-color: lightblue;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.one:hover, a.one:active {
+  background-color: red;
+  font-size: 110%;
+}
+
+a.three:link, a.three:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.three:hover, a.three:active {
+  background-color: green;
+  color: white;
 }
