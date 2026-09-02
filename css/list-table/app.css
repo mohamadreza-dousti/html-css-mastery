@@ -1,0 +1,21 @@
+ul.a {
+    background: mistyrose;
+    color: darkblue;
+    margin: 5px;
+    list-style-type: circle;
+}
+ul.b {list-style-type: disc;}
+ul.c {
+    list-style: square inside url("sqpurple.gif");
+}
+
+ol.d {list-style-type: upper-roman;}
+ol.e {list-style-type: lower-roman;}
+ol.f {list-style-type: lower-alpha;}
+ol.g {
+    list-style-type: decimal;
+    background: mistyrose;
+    color: darkred;
+    padding: 10px;
+    margin-left: 20px;
+    }
